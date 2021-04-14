@@ -13,12 +13,12 @@ const questions = [
     {
       type: 'input',
       message: 'What is the project description?:',
-      name: 'projectDescription',
+      name: 'description',
     },
     {
       type: 'input',
       message: 'Please enter installation instructions:',
-      name: 'installInstructions',
+      name: 'instructions',
     },
     {
       type: 'input',
@@ -56,7 +56,7 @@ const questions = [
     {
         type: 'input',
         message: 'Please enter your GitHub username:',
-        name: 'githubUserName',
+        name: 'userName',
     },
     {
         type: 'input',
