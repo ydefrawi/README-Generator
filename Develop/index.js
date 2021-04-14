@@ -3,7 +3,6 @@ const fs = require('fs');
 const inquirer = require('inquirer');
 const markdown = require('./utils/generateMarkdown.js');
 
-
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -70,6 +69,11 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log(fileName);
     console.log(data);
+    let generateRead=markdown.generateMarkdown(data);
+    fs.writeFile(fileName, generateRead, (err) => {
+    err ? console.error(err) : console.log('Success!')
+    }
+);
 }
 
 // TODO: Create a function to initialize app. 
