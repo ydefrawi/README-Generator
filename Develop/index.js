@@ -8,7 +8,7 @@ const questions = [
     {
       type: 'input',
       message: 'What is your project title?:',
-      name: 'projectTitle',
+      name: 'title',
     },
     {
       type: 'input',
@@ -69,7 +69,7 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log(fileName);
     console.log(data);
-    let generateRead=markdown.generateMarkdown(data);
+    let generateRead=markdown(data);
     fs.writeFile(fileName, generateRead, (err) => {
     err ? console.error(err) : console.log('Success!')
     }
