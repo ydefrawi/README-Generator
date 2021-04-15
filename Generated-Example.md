@@ -9,16 +9,23 @@
   ## Description
   It's about this!
 
+  ## Table of Contents:
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributions](#contributions)
+  * [Testing](#testing)
+  * [Questions](#questions)
+
   ## Installation
   Install it like this!
 
-  ## Usage Information
+  ## Usage
   Use it like this!
 
-  ## Contribution guidelines
+  ## Contribution
   Contribute like this!
 
-  ## Testing instructions
+  ## Testing
   Test it like this!
 
   ## Questions
