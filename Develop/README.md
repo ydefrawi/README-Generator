@@ -1,7 +1,13 @@
-# Bootcamp Project
+
+  
+  # Bootcamp Project!
+
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](
+    https://opensource.org/licenses/mit
+    )
 
   ## Description
-  Doing stuff with stuff!
+  It's about this!
 
   ## Installation
   Install it like this!

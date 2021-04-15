@@ -41,11 +41,10 @@ const questions = [
       name: 'license',
       choices: [ 
         "none", 
-        "Apache License 2.0",
-        "GNU General Public License v3.0",
-        "MIT License",
-        "Eclipse Public License 2.0",
-        "Mozilla Public License 2.0",]
+        "Apache-2.0",
+        "GPL-3.0",
+        "MIT",
+        "MPL-2.0",]
     },
     {
         type: 'input',
